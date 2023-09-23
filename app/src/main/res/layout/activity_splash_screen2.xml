@@ -8,6 +8,13 @@
     android:gravity="center"
     tools:context=".SplashScreenActivity2">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading"/>
+
     <TextView
         android:id="@+id/tvBar"
         android:layout_width="wrap_content"
@@ -23,6 +30,7 @@
         android:layout_height="wrap_content"
         android:indeterminate="false"
         android:progress="25"
+        android:visibility="gone"
         android:progressTint="#FF01579B" />
 
 </LinearLayout>

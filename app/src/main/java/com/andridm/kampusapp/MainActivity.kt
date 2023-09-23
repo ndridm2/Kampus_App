@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -13,9 +14,10 @@ import com.andridm.kampusapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
     private lateinit var rvKampus: RecyclerView
     private val list = ArrayList<Kampus>()
+    private var isLinearLayoutManager = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,7 +45,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showRecyclerList() {
-        rvKampus.layoutManager = LinearLayoutManager(this)
+        if (isLinearLayoutManager){
+            rvKampus.layoutManager = LinearLayoutManager(this)
+        }else {
+            rvKampus.layoutManager = GridLayoutManager(this, 2)
+        }
         val listKampusAdapter = ListKampusAdapter(list)
         rvKampus.adapter = listKampusAdapter
 
@@ -59,19 +65,38 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedKampus(kampus: Kampus){
-        Toast.makeText(this, "Kamu memilih " + kampus.name, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Detail " + kampus.name, Toast.LENGTH_SHORT).show()
+    }
+
+    private fun setIcon(menuItem: MenuItem?){
+        if (menuItem == null)
+            return
+
+        menuItem.icon =
+            if (isLinearLayoutManager)
+                ContextCompat.getDrawable(this, R.drawable.ic_baseline_grid_view)
+            else ContextCompat.getDrawable(this, R.drawable.ic_baseline_view_list)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_bar, menu)
+
+        val layoutButton = menu?.findItem(R.id.switch_layout)
+        setIcon(layoutButton)
+
         return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.aboutView -> startActivity(Intent(this@MainActivity, AboutActivity::class.java))
-            R.id.listView -> { rvKampus.layoutManager = LinearLayoutManager(this)}
-            R.id.gridView -> { rvKampus.layoutManager = GridLayoutManager(this, 2)}
+            R.id.aboutView -> startActivity(Intent(this@MainActivity,
+                AboutActivity::class.java))
+            R.id.switch_layout -> {
+                isLinearLayoutManager = !isLinearLayoutManager
+                showRecyclerList()
+                setIcon(item)
+                return true
+            }
         }
         return super.onOptionsItemSelected(item)
     }

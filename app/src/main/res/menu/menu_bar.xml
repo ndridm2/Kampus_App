@@ -2,13 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/gridView"
-        android:title="@string/grid_view"
-        android:icon="@drawable/ic_baseline_grid_view"
-        app:showAsAction="always"/>
-    <item
-        android:id="@+id/listView"
-        android:title="@string/list_view"
+        android:id="@+id/switch_layout"
+        android:title="switch_layout"
         android:icon="@drawable/ic_baseline_view_list"
         app:showAsAction="always"/>
     <item

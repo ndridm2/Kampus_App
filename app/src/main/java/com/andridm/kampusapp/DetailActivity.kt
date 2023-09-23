@@ -10,7 +10,8 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
-        supportActionBar?.setDisplayHomeAsUpEnabled(false)
+
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         val data = intent.getParcelableExtra<Kampus>("DATA")
         data?.photo?.let { findViewById<ImageView>(R.id.img_item_photo).setImageResource(it) }
