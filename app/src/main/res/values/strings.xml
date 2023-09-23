@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">KampusApp</string>
+    <string name="grid_view">Grid View</string>
+    <string name="about">About</string>
+    <string name="name">Andri Darmuli</string>
+    <string name="email">ndridm26@gmail.com</string>
+    <string name="list_view">list_view</string>
+
+    <string-array name="data_name">
+        <item>Telkom University (TEL-U)</item>
+        <item>Universitas Bina Nusantara (BINUS)</item>
+        <item>Universitas Muhammdyah Yogyakarata (UMY)</item>
+        <item>Universitas Muhammdyah Malang (UMM)</item>
+        <item>Universitas Mercubuana (UMB)</item>
+        <item>Universitas Muhammdyah Surakarta (UMS)</item>
+        <item>Universitas Ahmad Dahlan (UAD)</item>
+        <item>Universitas Gunadarma (UGM)</item>
+        <item>Universitas Nahdlatul Ulama Surabaya (UNUSA)</item>
+        <item>Universitas Islam Sultan Agung (UNISSULA)</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Telkom University menjadi perguruan tinggi swasta terbaik menurut Webometrics per Juli 2023. Kampus yang didirikan Yayasan Pendidikan Telkom di Bandung, Jawa Barat ini menempati peringkat 11 terbaik di Indonesia. Sementara Tel-U berada di ranking 1.268 dunia. PTS yang berdiri sejak 2013 ini memiliki 7 fakultas dan 50 program studi.Saat ini, Tel-U telah terakreditasi unggul berdasarkan BAN-PT dan terakreditasi internasional.</item>
+        <item>Binus menjadi kampus swasta terbaik kedua di Indonesia. Secara keseluruhan, kampus yang berada di Jakarta Barat ini berada di peringkat 12 terbaik di Indonesia. Adapun Binus berada di posisi kampus terbaik nomor 1.531 dunia. Bila dibandingkan dengan Juli 2022, posisi Binus di Indonesia tidak terlalu berubah, yakni 11 terbaik di Indonesia dan 1.758 dunia. Berdiri sejak 21 Oktober 1974, Binus memiliki 7 fakultas dengan 4 program diploma, 51 program sarjana, 6 program magister, dan 2 program doktor yang berada di 8 kampus.</item>
+        <item>PTS terbaik ketiga di Indonesia adalah Universitas Muhammadiyah Yogyakarta. Kampus ini berada di peringkat 19 terbaik se-Indonesia dan 1.947 dunia. Posisi UMY meningkat dari tahun lalu yang berada di posisi 16 terbaik Indonesia tapi hanya 2.069 dunia. Universitas yang berdiri sejak 1 Maret 1981 ini berlokasi di Kabupaten Bantul, Daerah Istimewa Yogyakarta. Pada 2022, UMY menerima sebanyak 5.570 mahasiswa baru yang menempuh pendidikan di 10 fakultas dan 41 program studi.</item>
+        <item>Universitas Muhammadiyah Malang merupakan PTS terbaik keempat di Indonesia. Kampus yang berada di Jawa Timur ini berada di posisi 22 terbaik Indonesia dan 2.264 dunia. Posisinya naik dari Juli 2022 di mana UMM hanya berada di ranking 25 terbaik Indonesia dan 2.776 dunia. Per 5 Mei 2023, sebanyak 39.485 mahasiswa menjadikan kampus ini sebagai tempat pembelajaran mereka. Saat ini, tedapat 10 fakultas dengan 6 program internasional, 5 program vokasi, 40 prodi S1, 6 profesi, 13 magister, dan 4 doktor di UMM.</item>
+        <item>Mercu Buana berada di posisi kelima PTS terbaik di Indonesia. Secara keseluruhan, kampus ini memiliki ranking 24 terbaik Indonesia dan 2.316 dunia. Dibandingkan edisi sebelumnya, Mercu Buana berada di peringkat 21 terbaik Indonesia dan 2.425 dunia. Berdiri sejak 22 Oktober 1985, Mercu Buana memiliki tiga kampus utama, yakni Kampus Meruya di Jakarta Barat, Kampus Menteng di Jakarta Pusat, dan Kampus Pejaten di Jakarta Selatan. Dengan 14 prodi sarjana dan dua prodi D3, universitas ini memiliki jumlah dosen 695 orang yang mengajar 27.923 mahasiswa pada 2022.</item>
+        <item>Universitas yang berlokasi di Surakarta, Jawa Tengah ini memiliki peringkat keseluruhan 33 terbaik Indonesia dan 2.720 dunia. Lembaga ini berdiri pada 24 Oktober 1981 sebagai perubahan dari IKIP Muhammadiyah Surakarta. Kala itu, UMS merupakan bagian dari Fakultas Keguruan dan Ilmu Pendidikan (FKIP) di bawah Universitas Muhammadiyah Jakarta cabang Surakarta sejak 1958.  Universitas Muhammadiyah Surakarta menjadi tempat bagi 7.169 mahasiswa pada 2022 yang menempuh studi di 12 Fakultas dengan 35 prodi sarjana, 19 magister, 5 doktoral, 7 profesi, dan 11 vokasi.</item>
+        <item>Kampus yang namanya diambil dari pendiri organisasi Muhammadiyah ini menjadi PTS terbaik ketujuh di Indonesia. Secara keseluruhan, Universitas Ahmad Dahlan yang berlokasi di Yogyakarta ini berada di ranking 35 terbaik Indonesia dan 2.920 dunia. UAD awalnya merupakan Institut Keguruan dan Ilmu Pendidikan (IKIP) Muhammadiyah Yogyakarta. Kampus tersebut adalah cabang FKIP Muhammadiyah Jakarta di Yogyakarta. Pada 19 Desember 1994, IKIP Muhammadiyah Yogyakarta diubah menjadi Universitas Ahmad Dahlan. Tahun 2022, UAD menerima sebanyak 7.022 mahasiswa yang menempuh studi di 11 fakultas dan 1 program pelatihan.</item>
+        <item>Gunadarma memiliki peringkat perguruan tinggi terbaik ke-36 di Indonesia dan 2.935 dunia. PTS di Depok, Jawa Barat ini memiliki 6 fakultas dan 18 prodi. Berdirinya Gunadarma diawali dengan pendirian Program Pendidikan Ilmu Komputer (PPIK) di Jakarta pada 7 Agustus 1981. PPIK yang berubah nama jadi Sekolah Tinggi Manajemen Informatika dan Komputer (STMIK) Gunadarma kemudian bergabung dengan Sekolah Tinggi Ilmu Ekonomi Gunadarma (STIE Gunadarma) menjadi Universitas Gunadarma pada 3 April 1996.</item>
+        <item>Universitas Nahdlatul Ulama Surabaya adalah Perguruan tinggi yang didirikan oleh Yayasan Rumah Sakit Islam Surabaya awalnya merupakan Sekolah Perawat Kesehatan (SPK) YARSIS pada 1979. Namun sejak 2012, sekolah tersebut berubah nama menjadi universitas di bawah dukungan Nahdlatul Ulama. Ssebanyak 1.810 mahasiswa baru dari lima fakultas dan 20 prodi menempuh studi di Universitas Nahdlatul Ulama Surabaya pada 2022.</item>
+        <item>Unissula yang berlokasi di Semarang ini berada di posisi perguruan tinggi terbaik ranking 45 se-Indonesia dan 3.564 dunia. Unissula didirikan oleh Yayasan Badan Wakaf Sultan Agung (YBWSA) pada 20 Mei 1962. Nama pahlawan Sultan Agung diambil sebagai nama kampus ini atas jasanya bagi bangsa Indonesia. Unissula memiliki 11 fakultas dengan 38 program studi yang terdiri dari program D3, S1, S2 dan S3.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/telkom</item>
+        <item>@drawable/binus</item>
+        <item>@drawable/umy</item>
+        <item>@drawable/umm</item>
+        <item>@drawable/mercu</item>
+        <item>@drawable/ums</item>
+        <item>@drawable/uad</item>
+        <item>@drawable/gundar</item>
+        <item>@drawable/unusa</item>
+        <item>@drawable/unissula</item>
+    </integer-array>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
