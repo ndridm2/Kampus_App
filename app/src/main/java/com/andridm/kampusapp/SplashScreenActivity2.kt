@@ -25,14 +25,14 @@ class SplashScreenActivity2 : AppCompatActivity() {
                     progressText.setText(""+i)
                     progressBar?.setProgress(i)
                     i++
-                    handler.postDelayed(this, 100)
+                    handler.postDelayed(this, 50)
 
                 } else {
                     startActivity(Intent(this@SplashScreenActivity2, MainActivity::class.java))
                     finish()
                 }
             }
-        },100)
+        },50)
 
     }
 }
